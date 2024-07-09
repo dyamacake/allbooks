@@ -1,5 +1,6 @@
 const { usuarioExiste, emailExiste } = require('../services/userService');
 
+
 const { testeDB } = require('../config/database');
 
 describe('Testando função emailExiste de userService', () => {
